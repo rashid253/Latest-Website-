@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendar - My Masterpiece Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <h1>My Masterpiece Website</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="analytics.html">Analytics</a></li>
+        <li><a href="calendar.html" class="active">Calendar</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="ecommerce.html">E-commerce</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="invoice.html">Invoice</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="more.html">More</a></li>
+        <li><a href="offers.html">Offers</a></li>
+        <li><a href="payment.html">Payment</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="content">
+      <h2>Calendar</h2>
+      <p>Schedule your appointments and view upcoming events with our intuitive calendar. Luxury meets functionality.</p>
+    </section>
+
+    <!-- User Info Form -->
+    <section class="user-form">
+      <h3>Book Your Experience</h3>
+      <form id="userInfoForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" />
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="formMessage"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Masterpiece Website</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
